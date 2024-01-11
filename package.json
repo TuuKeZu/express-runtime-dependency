@@ -1,5 +1,5 @@
 {
-  "name": "express-runtime-dependency",
+  "name": "@tuukezu/express-runtime-dependency",
   "version": "1.0.0",
   "description": "",
   "main": "lib/index.js",
@@ -7,7 +7,13 @@
     "build": "tsc",
     "dev": "nodemon ./src/index.ts"
   },
-  "author": "",
+  "repository": {
+    "url": "https://github.com/TuuKeZu/express-runtime.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "author": "Tuukka Moilanen",
   "license": "ISC",
   "dependencies": {
   },
